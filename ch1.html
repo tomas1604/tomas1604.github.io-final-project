@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Healing Hands</title>
+</head>
+
+<body>
+    <header>
+        <nav>  
+            <ul>
+                <li>
+                    <img src="/img/logo.png" class="img_log" alt="Logo">
+                </li>
+                <li>  
+                    <a href="../index.html"> Home </a>  
+                </li>  
+                <li>  
+                    <a href="../charities.html"> Charities </a>  
+                </li>  
+                <li>  
+                    <a href=""> Us </a>  
+                </li>  
+                </ul>  
+        </nav>  
+    </header>
+
+    <section class="ch">
+        <h1 class="title-ch">Healing Hands Foundation</h1>
+
+        <div class="ch-pr">
+            <h3>Our purpose</h3>
+            <p>Healing Hands Foundation is a non-profit organization dedicated to delivering essential healthcare services and health education to remote and underserved communities.
+                In many rural areas, access to medical care is extremely limited or non-existent. 
+                Our mission is to bridge that gap by organizing mobile clinics staffed by volunteer healthcare professionals. 
+                These clinics provide services such as general check-ups, vaccinations, maternal care, and treatment for chronic illnesses like diabetes, asthma, and high blood pressure.
+                In addition, we offer health education workshops to promote preventive care and healthier lifestyles.
+            </p>
+        </div>
+
+        <div class="ch-wl">
+            <h3>What are we looking for ?</h3>
+            <p>We are actively seeking support in several key areas:
+                Volunteer medical staff including doctors, nurses, and healthcare workers.
+                Financial donations to purchase medications, diagnostic tools, and transportation vehicles.
+                Corporate or community partners to help us expand our reach and provide long-term support for rural health programs.
+                Your involvement can help us bring care and hope to thousands of people in need.
+            </p>
+        </div>
+        
+    </section>
+
+    <section class="btn-ch">
+        <button class="hide-button" id="hide-btn">Volunteer Now</button>
+        <div style="display: none;" class="volunteer-box" id="volunteer-box">
+            <form>
+                <label for="name">Name:</label><br>
+                <input id="name" class="field" type="text" name="name"><br>
+
+                <label for="email">Email:</label><br>
+                <input class="field" type="email" id="email" name="email"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+
+    <div id="weather-section">
+        <h2 class="weather-title">🌦 Weather Forecast</h2>
+    
+        <div id="weather-search">
+            <input type="text" id="city-input" placeholder="Enter city name..." />
+            <button id="search-btn">Search</button>
+        </div>
+    
+        <div class="weather-container">
+        </div>
+    </div>
+       
+    <script src="../scripts.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Bright Futures</title>
+</head>
+<body>
+    <header>
+        <nav>  
+            <ul>
+                <li>
+                    <img src="/img/logo.png" class="img_log" alt="Logo">
+                </li>
+                <li>  
+                    <a href="../index.html"> Home </a>  
+                </li>  
+                <li>  
+                    <a href="../charities.html"> Charities </a>  
+                </li>  
+                <li>  
+                    <a href=""> Us </a>  
+                </li>  
+                </ul>  
+        </nav>  
+    </header>
+
+    <section class="ch">
+        <h1 class="title-ch">Bright Futures Initiative</h1>
+
+        <div class="ch-pr">
+            <h3>Our purpose</h3>
+            <p>Bright Futures Initiative aims to empower children and youth from low-income families by providing them with access to quality education and mentorship.
+                We believe that every child deserves the opportunity to learn, grow, and succeed—regardless of their financial situation.
+                Our programs include free after-school tutoring, weekend enrichment classes, mentorship pairings with professionals in various careers, college readiness workshops, and scholarships for higher education. 
+                By removing educational barriers and providing strong support systems, we help students build confidence, set goals, and dream bigger.
+            </p>
+        </div>
+           
+        <div class="ch-wl">
+            <h3>What are we looking for ?</h3>
+            <p>We need the community’s help to continue making a difference. Here's how you can support:
+                Donations to fund scholarships, provide educational materials, and maintain our tutoring programs.
+                Volunteer tutors and mentors who can work with students and offer guidance, support, and encouragement.
+                Donations of books, backpacks, laptops, and other school supplies that students can use to thrive academically.
+                Together, we can open doors and create brighter futures for the next generation.
+            </p>
+        </div>
+        
+    </section>
+
+    <section class="btn-ch">
+        <button class="hide-button" id="hide-btn">Volunteer Now</button>
+        <div style="display: none;" class="volunteer-box" id="volunteer-box">
+        <form>
+            <label for="name">Name:</label><br>
+            <input id="name" class="field" type="text" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input class="field" type="email" id="email" name="email"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </section>
+
+
+    <div id="weather-section">
+        <h2 class="weather-title">🌦 Weather Forecast</h2>
+    
+        <div id="weather-search">
+            <input type="text" id="city-input" placeholder="Enter city name..." />
+            <button id="search-btn">Search</button>
+        </div>
+    
+        <div class="weather-container">
+        </div>
+    </div>
+
+    <script src="../scripts.js"></script>
+
+
+
+</body>
+</html>

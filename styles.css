@@ -1,0 +1,277 @@
+* {
+    font-family: sans-serif;
+}
+
+header {  
+    background-color: orange;  
+    position: sticky ;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 40px;  
+    display: flex;  
+    align-items: center;  
+    text-align: center;
+    box-shadow: 0 0 10px 0 black;  
+    font-size: 150%;
+}  
+header * {  
+    display: flex;
+}  
+.img_log{
+    display: flex;
+    object-fit: contain;
+    width: 100px;
+}
+header li {  
+    margin: 35%;
+}  
+header li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+body {  
+    height: 100vh;  
+    margin-top: 40px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
+}  
+
+.logp1 {
+    display: block;
+    float: left;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+    scale: 0.9;
+}
+
+.bodyp1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.bodyp1_2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.p_p1{
+    border: 1px solid;
+}
+
+.t_p2 {
+    margin-left: 15%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.main-p2 {
+    margin: 50px;
+    border: 1px solid;
+}
+
+.h3_p2{
+    margin-right: 20px;
+}
+
+
+.wrapper{
+	width: 800px;
+	margin: 20px auto;
+}
+
+.links{
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.links ul{
+    list-style: none;
+	display: flex;
+	justify-content: right;
+}
+
+.links ul li{
+	margin: 0 15px;
+	text-transform: uppercase;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.links ul li:hover,
+.links ul li.active{
+	color: gray;
+}
+
+.list-view .view_item {
+	border: 1px solid #e2efe1;
+	margin: 10px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+.view_item .btn{
+	cursor: pointer;
+}
+
+.view_item .btn:hover{
+	background-color: orange;
+}
+
+
+.grid-view .view_item {
+	display: inline-table;
+    border: 1px solid #e2efe1;
+    width: 325px;
+    height: 170px;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-view .view_item .btn{
+	margin: 0 auto;
+}
+
+.title-ch{
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+}
+.ch-pr{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 0 20px;
+    width: 46%;
+    height: 300px;    
+    border: 1px solid;
+}
+
+.ch-wl{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 0 20px;
+    width: 46%;
+    height: 300px;
+    border: 1px solid;
+}
+
+.btn-ch{
+    display: flex;
+    padding: 30px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    white-space: nowrap;
+    z-index: 100;
+}
+.view_item h3 {
+    position: relative;
+    cursor: pointer;
+}
+.view_item h3 .tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#weather-section {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e2efe1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.weather-title {
+    margin-bottom: 20px;
+    color: orange;
+    font-size: 1.8rem;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    width: 220px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #e2efe1;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    background: #ffffff;
+    text-align: center;
+}
+
+.weather-card h3 {
+    margin-bottom: 10px;
+    color: orange;
+    font-size: 1.2rem;
+}
+
+.weather-card p {
+    margin: 5px 0;
+}
+
+.weather-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+#weather-search {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 250px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: darkorange;
+}

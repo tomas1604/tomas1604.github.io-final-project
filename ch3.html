@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Green Earth</title>
+</head>
+<body>
+    <header>
+        <nav>  
+            <ul>
+                <li>
+                    <img src="/img/logo.png" class="img_log" alt="Logo">
+                </li>
+                <li>  
+                    <a href="../index.html"> Home </a>  
+                </li>  
+                <li>  
+                    <a href="../charities.html"> Charities </a>  
+                </li>  
+                <li>  
+                    <a href=""> Us </a>  
+                </li>  
+                </ul>  
+        </nav>  
+    </header>
+
+    <section class="ch">
+        <h1 class="title-ch">Green Earth Alliance</h1>
+
+        <div class="ch-pr">
+            <h3>Our purpose</h3>
+            <p>Green Earth Alliance is an environmental organization dedicated to protecting nature and promoting sustainable living. 
+                Our work focuses on reforestation projects, wildlife conservation, environmental clean-up efforts, and community education programs. 
+                We strive to restore natural habitats, protect endangered species, and engage the public in eco-friendly practices. 
+                Our team collaborates with local communities, schools, and environmental experts to create greener, cleaner, and more sustainable environments for all. 
+                Through advocacy and action, we aim to fight climate change and inspire lasting environmental responsibility.
+            </p>
+        </div>
+        
+        <div class="ch-wl">
+            <h3>What are we looking for ?</h3>
+            <p>We welcome individuals, groups, and businesses to get involved and make a real impact:
+                Volunteers who can help plant trees, clean parks and rivers, and participate in eco-campaigns.
+                Financial contributions to fund our conservation efforts, educational materials, and environmental workshops.
+                Supporters who can help us raise awareness through social media, school presentations, and local events.
+                With your help, we can protect our planet today and ensure a better tomorrow for generations to come.
+            </p>
+        </div>
+        
+    </section>
+
+    <section class="btn-ch">
+        <button class="hide-button" id="hide-btn">Volunteer Now</button>
+        <div style="display: none;" class="volunteer-box" id="volunteer-box">
+            <form>
+                <label for="name">Name:</label><br>
+                <input id="name" class="field" type="text" name="name"><br>
+
+                <label for="email">Email:</label><br>
+                <input class="field" type="email" id="email" name="email"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <div id="weather-section">
+        <h2 class="weather-title">🌦 Weather Forecast</h2>
+    
+        <div id="weather-search">
+            <input type="text" id="city-input" placeholder="Enter city name..." />
+            <button id="search-btn">Search</button>
+        </div>
+    
+        <div class="weather-container">
+        </div>
+    </div>
+
+    <script src="../scripts.js"></script>
+
+
+
+</body>
+</html>
